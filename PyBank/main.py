@@ -65,3 +65,4 @@ print(summary)
 # Write summary data into a text file
 with open("Output.txt", "w") as text_file:
     print(f"{summary}", file=text_file)
+text_file.close()
